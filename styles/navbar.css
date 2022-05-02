@@ -1,0 +1,14 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: antiquewhite;
+  }
+  #search_input {
+    width: 1000px;
+    height: 35px;
+    border-radius: 20px;
+  }
+  #navbar a {
+    font-size: 25px;
+  }

@@ -1,0 +1,19 @@
+#results {
+    display: flex;
+    flex-direction: column;
+   
+
+  }
+
+  .news {
+    display: flex;
+    justify-content: space-between;
+    border:  1px solid black;
+    gap: 10px;
+
+  }
+
+  .news img {
+    width: 100px;
+    height: 100px;
+  }

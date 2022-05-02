@@ -1,0 +1,44 @@
+/* side bar */
+.lower_div {
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  #sidebar {
+    width: 20%;
+    height: 700px;
+    background-color:  antiquewhite;
+    padding: 10px;
+  }
+
+  #sidebar h3{
+    background-color: teal;
+    cursor: pointer;
+  }
+
+  #sidebar h3:hover{
+    font-size: 20px;
+  }
+
+  /* results parts */
+  #results {
+    display: flex;
+    flex-direction: column;
+   
+
+  }
+
+  .news {
+    display: flex;
+    justify-content: space-between;
+    border:  1px solid black;
+    gap: 10px;
+
+  }
+
+  .news img {
+    width: 100px;
+    height: 100px;
+  }
